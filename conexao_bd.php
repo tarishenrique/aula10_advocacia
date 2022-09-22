@@ -1,9 +1,9 @@
 <?php
 
-$servidor = "servidor";
-$usuario = "usuario";
-$senha = "senha";
-$bd = "banco de dados";
+$servidor = "localhost";
+$usuario = "root";
+$senha = "";
+$bd = "advocacia";
 
 // Criando nova conexão 
 global $conn;
@@ -45,7 +45,3 @@ function retornarDados($sql) {
         //return 0;
     }
 }
-?>
-
-
-
